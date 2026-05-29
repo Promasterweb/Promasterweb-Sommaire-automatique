@@ -1,0 +1,65 @@
+/* ==============================
+   SOMMAIRE ARTICLE
+============================== */
+
+body.single-post h2[id] {
+  padding-top: 150px !important;
+  margin-top: -150px !important;
+}
+@media (max-width: 768px) {
+  body.single-post h2[id] {
+    padding-top: 120px !important;
+    margin-top: -120px !important;
+  }
+}
+
+.pmw-article__toc {
+  margin: 40px 0;
+  padding: 24px 28px;
+  background: #f7f8fa;
+  border-left: 4px solid #1fbaa5;
+  border-radius: 12px;
+}
+
+.pmw-article__toc h2 {
+  margin: 0 0 16px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+}
+
+.pmw-article__toc ol {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.pmw-article__toc li {
+  margin: 6px 0;
+  line-height: 1.5;
+}
+
+.pmw-article__toc a {
+  color: #1fbaa5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color .2s ease;
+}
+
+.pmw-article__toc a:hover {
+  color: #169d8a;
+  text-decoration: underline;
+}
+
+/* ==============================
+   RESPONSIVE
+============================== */
+
+@media (max-width: 768px) {
+  .pmw-article__toc {
+    padding: 20px;
+  }
+
+  .pmw-article__toc h2 {
+    font-size: 18px;
+  }
+}
